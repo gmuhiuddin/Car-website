@@ -1,0 +1,49 @@
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    height: 329px;
+}
+.car_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-grow: 1;
+}
+.car_img > img {
+    height: 100%;
+    width: 100%;
+}
+.text_div{
+    flex-grow: 1;
+    width: 50%;
+}
+.text_div > p{
+    margin: 39px; 
+font-size: 20px;
+}
+.inputs_div{
+    height: 99px;
+    width: 100%;
+   display: flex;
+   align-items: center ;
+   justify-content: center;
+}
+.inputs_div > input{
+    margin: 15px;
+    width: 183px;
+    height: 19px;
+}
+.inputs_div > button {
+    margin-left: 15px;
+    width: 79px;
+    height: 25px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
